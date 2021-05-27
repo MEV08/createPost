@@ -1,0 +1,40 @@
+{
+  "name": "create-post",
+  "version": "1.0.0",
+  "description": "js post creator",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEV08/createPost.git"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "posts",
+    "javascript"
+  ],
+  "author": "mev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEV08/createPost/issues"
+  },
+  "homepage": "https://github.com/MEV08/createPost#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
